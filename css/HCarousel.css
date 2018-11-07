@@ -1,7 +1,16 @@
+/*
+author:hxk
+date:2018/9/5
+meta1
+*/
 *{
     margin: 0;
     padding: 0;
 
+}
+
+#hc_warp{
+    height: 315px;
 }
 .car_main{
     width: 1000px;
@@ -38,7 +47,7 @@
 }
 
 .p1{
-    transform: translate3d(-200px,0,0) scale(0.85);
+    /*transform: translate3d(-200px,0,0) scale(0.85);*/
     z-index: 3;
     opacity: 0.8;
 }
@@ -47,7 +56,7 @@
     opacity: 1;
 }
 .p3{
-    transform: translate3d(200px,0,0) scale(0.85);
+    /*transform: translate3d(200px,0,0) scale(0.85);*/
     z-index: 3;
     opacity: 0.8;
 }
